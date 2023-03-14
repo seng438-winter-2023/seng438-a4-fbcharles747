@@ -1,0 +1,98 @@
+{
+  "id": "6d7f958a-de5a-4830-8045-6c265939232d",
+  "version": "2.0",
+  "name": "IKEA_site_test",
+  "url": "https://www.ikea.com/ca/en/?ref=gwp-start",
+  "tests": [{
+    "id": "edaeb366-4db8-4924-9ec7-3cf24ab16bf9",
+    "name": "test_Search",
+    "commands": [{
+      "id": "51b87900-6216-4784-90db-5234e94a33ad",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.ikea.com/ca/en/?ref=gwp-start",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "064e6a51-9525-4728-924e-03b795b535df",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "89797f74-8816-4d5e-b8d3-6879951f93b1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=search-box__visualsearch",
+      "targets": [
+        ["id=search-box__visualsearch", "id"],
+        ["css=#search-box__visualsearch", "css:finder"],
+        ["xpath=//button[@id='search-box__visualsearch']", "xpath:attributes"],
+        ["xpath=//span/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cea9214c-94b3-48bd-9746-1ae3e680a531",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.search-field__input", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f5b4720-48c9-48eb-9ede-6cda0542b66e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.universal-item__title",
+      "targets": [
+        ["css=.universal-item__title", "css:finder"],
+        ["xpath=//ol[@id='search-suggestions']/li/a/span/span", "xpath:idRelative"],
+        ["xpath=//li/a/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f4c67b9b-f26e-4741-9013-27930dc31355",
+    "name": "test_MenuBar",
+    "commands": [{
+      "id": "a122443b-e85c-4ac5-8e56-e4bfd4cea79b",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.ikea.com/ca/en/?ref=gwp-start",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1b34dba7-5667-46ea-a061-6bcd25b00b81",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "001091db-96e1-4934-ae1e-dd76199777ff",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hnf-btn--open-menu > .hnf-btn__inner",
+      "targets": [
+        ["css=.hnf-btn--open-menu > .hnf-btn__inner", "css:finder"],
+        ["xpath=//div[2]/div/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "84d0952a-2fba-4571-be15-75781446b8b1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.ikea.com/", "https://www.ikea.com/ca/en/?ref=gwp-start"],
+  "plugins": []
+}
