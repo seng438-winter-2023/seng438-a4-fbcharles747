@@ -61,9 +61,32 @@ public boolean contains(double value) {
 - line coverage is 91%
 - test strength is 73%
 
+**DataUtilities Mutation Summary With old given Tests**
+
+![image](https://user-images.githubusercontent.com/72403820/224467896-14401670-1e0e-4628-b7d3-0768333c2c5c.png)
+
+![image](https://user-images.githubusercontent.com/72403820/224467912-1e8c936b-5fcd-4faa-9d57-5eb3678f8fef.png)
+
+**DataUtilities Mutation Summary With Assignment 3 Tests**
+
+![image](https://user-images.githubusercontent.com/72403820/224466714-06433873-8d38-4cce-abcb-b5d5717433a7.png)
+
+![image](https://user-images.githubusercontent.com/72403820/224466735-d6599a06-db1b-4c58-b5be-7551ea0de6ee.png)
+
+**DataUtilities Mutation Summary With New Updated Tests**
+
+![image](https://user-images.githubusercontent.com/72403820/224470855-30af52f4-38f3-4fa6-941e-21890cfcc5d8.png)
+
+![image](https://user-images.githubusercontent.com/72403820/224470871-5d7f7d2e-5ddd-459d-b9c7-7095e425eed3.png)
+
+
 # Analysis drawn on the effectiveness of each of the test classes
 
 # A discussion on the effect of equivalent mutants on mutation score accuracy
+
+Equivalent Mutants reduce the accuracy of the mutation score because the survival of a equivalent mutant does not indicate poor tests but will still result in a lower ratio of mutants to killed mutants. For example one equivalent mutant we found in DataUtilities was mutant 104. In the DataUtilities source code we have the following line as a part of equal():
+`for (int i = 0; i < source.length; i++)`
+And Mutant 104 replaces the `<` with `!=`. This does not change the functionality since in both cases the loop will iterate by 1 and eventually stop when `i==source.length` and since i is only ever iterated by 1, it will never go above source.length which means both loops are functionally equivalent and the mutant will survive. This mutant surviving will lower the mutant score despite it being functionally indentical to the expected behaviour.
 
 # A discussion of what could have been done to improve the mutation score of the test suites
 
