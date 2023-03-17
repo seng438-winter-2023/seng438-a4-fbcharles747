@@ -111,13 +111,16 @@ Disadvantages:
 
 
 # Explain your SELENUIM test case design process
-For testing the website of IKEA there are 4 scenarios to consider.
+For testing the website of IKEA there are these scenarios to consider-
 
 1.Sign up with valid data: In this scenario, fill all the required field with valid data. Then check and verify if the website goes to the homepage.
 2.Sign up with invalid data: enter invalid datas in the boxes and check to see if the website is showing appropriate error messeage.
 3.Log in with valid credentials: Enter valid username and password.Verify that the user is redirected to the home page after login signed in to the personalized acoount
 4.Log in with invalid credentials:  In this case, enter invalid username and password. Verify that appropriate error messages are displayed
-//everyone add their selenium test cases here.
+5.Add to cart test: For this case, we added a bunch of items from the products to the cart to see if it updates properly. Later, items were removed from the cart to check if they are removing right.
+6.Navbar test: In this instance, we clicked on all the items in the navbar to see if it was showing the right result and going to the right page by clicking on all of them.
+7.product filtering: For this case, we serached up a furniture such as table and filtered the results to see if it was showing the correct results. 
+8.wishlist: To test this, we added products on our wishlist and checked if they were updating and removing correctly.
 
 # Explain the use of assertions and checkpoints
 Assertions and checkpoints are features in Selenium that help test the website's functionality and performance. 
