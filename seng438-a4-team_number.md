@@ -7,7 +7,7 @@
 | Student Names: |     |
 |                |     |
 |                |     |
-|                |     |
+| Shreosi Debnath | 30111867 |
 
 # Introduction
 
@@ -93,14 +93,62 @@ And Mutant 104 replaces the `<` with `!=`. This does not change the functionalit
 - For Range class, we lose most of the mutation score in the mutants called "changed condition boundary". However, the tool does not provide the detail of the mutant. Thus, we need to conduct deep analysis of some condition statement to cover almost every possible outcome to earn the score.
 
 # Why do we need mutation testing? Advantages and disadvantages of mutation testing
+Mutation testing is a technique which tests software by adding artificial faults or mutations, to the code and testing if the tests can find them. The goal is to identify weaknesses in the test suite and improve its effectiveness in detecting faults.
+
+Advantages:
+
+1.It helps to improve the overall quality of software testing. Mutation testing can help identify gaps in test coverage and find areas where the code may be susceptible to errors.
+2.Identifies faulty code.
+3.it reduces the cost of testing hence it is cost efficient to use.
+
+Disadvantages:
+
+1.Takes to much time
+2.It requires a lot of computational resources. Therefore it can be hard to do for small scale projects without the acess to cloud.
+3.Interpreting the results are difficult. It takes a lot of expertise and analysis to understand the test results.
+
+
+
 
 # Explain your SELENUIM test case design process
+For testing the website of IKEA there are 4 scenarios to consider.
+
+1.Sign up with valid data: In this scenario, fill all the required field with valid data. Then check and verify if the website goes to the homepage.
+2.Sign up with invalid data: enter invalid datas in the boxes and check to see if the website is showing appropriate error messeage.
+3.Log in with valid credentials: Enter valid username and password.Verify that the user is redirected to the home page after login signed in to the personalized acoount
+4.Log in with invalid credentials:  In this case, enter invalid username and password. Verify that appropriate error messages are displayed
+//everyone add their selenium test cases here.
 
 # Explain the use of assertions and checkpoints
+Assertions and checkpoints are features in Selenium that help test the website's functionality and performance. 
+
+Assertions help testers to make sure that a web page is behaving as expected. They compare what the web page is actually doing to what it is supposed to be doing, such as checking that the page title is correct. If something is not working as it should, the test will fail and the testers will know that there is a problem.
+
+Checkpoints help testers to see the current state of a web page during testing. They allow testers to check whether the different parts of the web page i.e. buttons, text boxes, media, navbar are working properly. For example, a checkpoint can check if a button is active or inactive. This can help testers to find problems with the website's design or functionality, such as if a button is not working correctly or an image is missing.
 
 # how did you test each functionaity with different test data
 
 # Discuss advantages and disadvantages of Selenium vs. Sikulix
+Selenium and SikuliX are both tools used for automated testing. Selenium is used for testing web applications, while SikuliX is used for testing desktop applications. 
+
+Advantages of Selenium:
+1.Works with many programming languages and different web browsers.
+2.Can be integrated with continuous testing and deployment tools.
+3.Has a large community of users, so it's easy to find support and information.
+
+Disadvantages of Selenium:
+1.do not support non-web-based applications.
+2.Has limited support for image/video recognition. Therefore can be hard to test out media files.
+
+Advantages of SikuliX:
+1.Can recognize images on the desktop and simulate mouse and keyboard actions based on image recognition.
+2.Easy to use with a graphical interface.
+3.Can be used on different operating systems.
+4.Requires no programming knowledge.
+
+Disadvantages of SikuliX:
+1.Sikulix is primarily designed for desktop applications and is not be suitable for testing web based applications or websites.
+2.Due to a smaller community of users than Selenium it is hard to find information.
 
 # How the team work/effort was divided and managed
 
