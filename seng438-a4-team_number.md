@@ -2,12 +2,13 @@
 
 **Lab. Report \#4 – Mutation Testing and Web app testing**
 
-| Group \#:      |     |
-| -------------- | --- |
-| Student Names: |     |
-|                |     |
-|                |     |
-| Shreosi Debnath | 30111867 |
+| Group \#:        |     |
+| --------------   | --- |
+| Student Names:   |     |
+| Chun-chun Huang  |     |
+| Amneet Deol      |     |
+| Hiten Mahal      |     |
+| Shreosi Debnath  | 30111867 |
 
 # Introduction
 
