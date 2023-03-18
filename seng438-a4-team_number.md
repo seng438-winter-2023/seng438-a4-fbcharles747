@@ -138,6 +138,8 @@ Checkpoints help testers to see the current state of a web page during testing. 
 
 # How did you test each functionality with different test data
 
+For our tests, we tested each functionality with valid and invalid inputs to help detect defects. With the valid inputs we made sure that the output was appropriate (for example logging in a user with proper credentials successfully logged them in) and with invalid inputs we made sure that appropriate error messages were displayed so a user would be able to use the website with ease and enter valid inputs in the future. We mainly used exploratory testing here, trying to test functionality that a regular user would do. 
+
 # Discuss advantages and disadvantages of Selenium vs. Sikulix
 Selenium and SikuliX are both tools used for automated testing. Selenium is used for testing web applications, while SikuliX is used for testing desktop applications. 
 
