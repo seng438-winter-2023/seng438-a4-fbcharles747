@@ -58,11 +58,18 @@ public boolean contains(double value) {
 
 ## RangeTest from assignment 3
 
-<img src="./media/RangeTest_mut_A3.PNG" />
+<img src="./media/RangeTest-A3-stat.PNG" />
 
-- mutation score is 67%
-- line coverage is 91%
+<img src="./media/RangeTest-A3-rangeStat.PNG" />
+
+- mutation score is 63%
+- line coverage is 90%
 - test strength is 73%
+
+## Updated Range test suit coverage
+
+<img src="./media/RangeTest-A4-stat.PNG" />
+<img src="./media/RangeTest-A4-rangeStat.PNG" />
 
 **DataUtilities Mutation Summary With old given Tests**
 
@@ -81,7 +88,6 @@ public boolean contains(double value) {
 ![image](https://user-images.githubusercontent.com/72403820/224470855-30af52f4-38f3-4fa6-941e-21890cfcc5d8.png)
 
 ![image](https://user-images.githubusercontent.com/72403820/224470871-5d7f7d2e-5ddd-459d-b9c7-7095e425eed3.png)
-
 
 # Analysis drawn on the effectiveness of each of the test classes
 
