@@ -93,7 +93,7 @@ public boolean contains(double value) {
 
 For the DataUtilities test suite, the mutation coverage went from 88% to 91% from our assignment 3 tests to our updated tests. This is a 3% increase, so our added tests were effective in killing the mutants that were not previously killed by our assignment 3 tests. We were able to do this by adding more tests for methods that were not extensively tested previously.
 
-For the Range test suite, the mutation coverage went from 67% to . 
+For the Range test suite, the mutation coverage went from 63% to 67% from our assignment 3 tests to our updated tests. This is a 4% increase, also showing that our tests were effective in killing some mutants. Though, the coverage is still low, and we found a lot of equivalent mutants that we were unable to write test cases to kill. We would need to do more thorough and extensive testing to have a higher mutation coverage (which we will keep in mind for future labs).
 
 # A discussion on the effect of equivalent mutants on mutation score accuracy
 
