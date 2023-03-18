@@ -11,6 +11,8 @@
 | Shreosi Debnath  | 30111867 |
 
 # Introduction
+This lab focused on mutation and GUI testing. With mutation testing we analyzed our test cases from assignment 3 through PiTest, identifying the mutants that were killed, survived, or were not covered at all. By adding to our test suite and targetting specific mutants, we were able to improve coverage and the number of killed mutants. With the GUI testing, we used Selenium and Sikulix. The Selenium IDE allowed us to automoate scripted tests for the IKEA website and we then compared it to the Sikulix GUI software. 
+
 
 # Analysis of 10 Mutants of the Range class
 
