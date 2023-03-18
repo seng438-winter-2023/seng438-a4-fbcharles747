@@ -164,6 +164,8 @@ Disadvantages of SikuliX:
 
 # How the team work/effort was divided and managed
 
+We split the testing work so some team members worked on the mutation testing and improving mutation coverage for the Range and DataUtilities and the others worked on the GUI testing and report. We communicated consistently online to ensure that the assignment was on track and to help assist each other with the work. 
+
 # Difficulties encountered, challenges overcome, and lessons learned
 
 # Comments/feedback on the lab itself
