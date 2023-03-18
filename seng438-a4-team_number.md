@@ -136,7 +136,7 @@ Assertions help testers to make sure that a web page is behaving as expected. Th
 
 Checkpoints help testers to see the current state of a web page during testing. They allow testers to check whether the different parts of the web page i.e. buttons, text boxes, media, navbar are working properly. For example, a checkpoint can check if a button is active or inactive. This can help testers to find problems with the website's design or functionality, such as if a button is not working correctly or an image is missing.
 
-# how did you test each functionaity with different test data
+# How did you test each functionality with different test data
 
 # Discuss advantages and disadvantages of Selenium vs. Sikulix
 Selenium and SikuliX are both tools used for automated testing. Selenium is used for testing web applications, while SikuliX is used for testing desktop applications. 
