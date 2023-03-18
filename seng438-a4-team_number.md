@@ -85,6 +85,10 @@ public boolean contains(double value) {
 
 # Analysis drawn on the effectiveness of each of the test classes
 
+For the DataUtilities test suite, the mutation coverage went from 88% to 91% from our assignment 3 tests to our updated tests. This is a 3% increase, so our added tests were effective in killing the mutants that were not previously killed by our assignment 3 tests. We were able to do this by adding more tests for methods that were not extensively tested previously.
+
+For the Range test suite, the mutation coverage went from 67% to . 
+
 # A discussion on the effect of equivalent mutants on mutation score accuracy
 
 Equivalent Mutants reduce the accuracy of the mutation score because the survival of a equivalent mutant does not indicate poor tests but will still result in a lower ratio of mutants to killed mutants. For example one equivalent mutant we found in DataUtilities was mutant 104. In the DataUtilities source code we have the following line as a part of equal():
