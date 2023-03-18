@@ -168,4 +168,6 @@ We split the testing work so some team members worked on the mutation testing an
 
 # Difficulties encountered, challenges overcome, and lessons learned
 
+We initially had some confusion with the PiTest for the mutation testing. We did not anticipate how long the execution time would be and at the beginning thought that it was not working properly. Though after speaking with the rest of the group, we were able to have a bit more confidence in the program. Though as executions sometimes took around 20 minutes, it did delay our progress on the lab (it was more less beneficial to change small parts of the code as it would take a long time to see the coverage impacts). This did, however, allow us to multitask on other parts of the assignment to avoid wasting time. Overall, the Selenium testing was a bit confusing at first, but once we did more research, we were able to work more quickly and efficiently. 
+
 # Comments/feedback on the lab itself
