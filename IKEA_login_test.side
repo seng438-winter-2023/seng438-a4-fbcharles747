@@ -1,0 +1,288 @@
+{
+  "id": "a3f80cb6-26a7-4d58-8395-03c0a4721db4",
+  "version": "2.0",
+  "name": "A4",
+  "url": "https://www.ikea.com",
+  "tests": [{
+    "id": "02334b9e-444a-40f9-ad13-1a07239d551c",
+    "name": "Untitled",
+    "commands": [{
+      "id": "7d9fd9db-5482-40f9-9a93-1f84184c6b22",
+      "comment": "",
+      "command": "open",
+      "target": "/ca/en/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4dab811b-26bf-4e08-8091-d3460b523a6e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "331ede69-1b1d-43de-a2ff-e3c668e25328",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.hnf-message__content__item:nth-child(3) .hnf-svg-icon",
+      "targets": [
+        ["css=.hnf-message__content__item:nth-child(3) .hnf-svg-icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "18786e60-e887-4122-babd-38ed19127199",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.js-shopping-cart-icon",
+      "targets": [
+        ["css=.js-shopping-cart-icon", "css:finder"],
+        ["xpath=//li[4]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Shopping cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0828b068-8bf6-4380-aefa-c4b27f08dc0d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.js-shopping-cart-icon",
+      "targets": [
+        ["css=.js-shopping-cart-icon", "css:finder"],
+        ["xpath=//li[4]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Shopping cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3439447e-8411-47d0-a445-43355ee72543",
+      "comment": "",
+      "command": "click",
+      "target": "css=#loyalty-modal-button > .hnf-btn__inner",
+      "targets": [
+        ["css=#loyalty-modal-button > .hnf-btn__inner", "css:finder"],
+        ["xpath=//a[@id='loyalty-modal-button']/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Hej! Log in or sign up')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "880f2e0d-3a86-4c87-91c4-41ea02ce2038",
+      "comment": "",
+      "command": "click",
+      "target": "css=#header__button > .btn__inner",
+      "targets": [
+        ["css=#header__button > .btn__inner", "css:finder"],
+        ["xpath=//a[@id='header__button']/span", "xpath:idRelative"],
+        ["xpath=//section/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Sign in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd6bd356-7478-4f53-a451-6e8a634a1bea",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[3]/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "debnathshreosi@gmail.com"
+    }, {
+      "id": "8f376077-75e4-43c2-b4b3-6c5f5fbaf625",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[3]/div/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": "SHREOSI@1jtagd45"
+    }, {
+      "id": "84f82192-0bf0-43e3-a377-4f683b311b7c",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[3]/div/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c9dbb98-9be6-44a9-89fd-bff34bb1fad1",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[3]/div/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": "1jtagd45"
+    }, {
+      "id": "7d6ab255-d046-41e9-b7ad-57c6b81af9d3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn--emphasised > .btn__inner",
+      "targets": [
+        ["css=.btn--emphasised > .btn__inner", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/form/button/span", "xpath:idRelative"],
+        ["xpath=//form/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Continue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a338b1c1-093c-4d11-9777-7dba7c9398f4",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[3]/div/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df3b49c6-159e-47a5-8508-e33905a6ded8",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[3]/div/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f91a3c60-e0e8-47f8-8b1e-507c865bbd0e",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[3]/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "20b34529-dd31-40da-bfd4-1b696c795e72",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[3]/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "debnathshreosi@gmail.comm"
+    }, {
+      "id": "58f3d2a8-14e4-4bab-bf2e-d10ab70268c2",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[3]/div/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9215b901-fa87-4d18-b2c4-5f44f5039969",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[3]/div/form/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": "SHREOSI@1jtagd45"
+    }, {
+      "id": "a9bb64cc-d824-4a4e-9f30-b40a789fdd51",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn--emphasised .btn__label",
+      "targets": [
+        ["css=.btn--emphasised .btn__label", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/form/button/span/span", "xpath:idRelative"],
+        ["xpath=//form/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "abe5c8b5-655a-473c-8889-9a23b35ca7b8",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[3]/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dbf4f9b8-0a3d-466f-8c9e-afc45426090a",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[3]/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "debnathshreosi@gmail.com"
+    }, {
+      "id": "b0c323c9-4542-441b-bd61-f0c2843c12d8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn--emphasised > .btn__inner",
+      "targets": [
+        ["css=.btn--emphasised > .btn__inner", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/form/button/span", "xpath:idRelative"],
+        ["xpath=//form/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Continue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3cf02202-43e0-47c6-92ec-55e35a8ebd0f",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f5cfb8ba-e28a-4f3e-a1fb-95e27a9662d9",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["02334b9e-444a-40f9-ad13-1a07239d551c"]
+  }],
+  "urls": ["https://www.ikea.com/"],
+  "plugins": []
+}

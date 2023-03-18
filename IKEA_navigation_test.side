@@ -1,0 +1,259 @@
+{
+  "id": "75465bd5-24b7-4af9-b8f4-0748543163e4",
+  "version": "2.0",
+  "name": "A4",
+  "url": "https://www.ikea.com",
+  "tests": [{
+    "id": "05855972-39bb-4057-8657-edad8e6624dc",
+    "name": "Untitled",
+    "commands": [{
+      "id": "4b4a52ea-1343-40dc-980c-63eaf0ad75a0",
+      "comment": "",
+      "command": "open",
+      "target": "/ca/en/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e48b714e-653f-4a05-a777-dc00b4e6a177",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eccb3cbe-d6bc-4733-863d-7ba9a826e76f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Products",
+      "targets": [
+        ["linkText=Products", "linkText"],
+        ["css=.hnf-header__nav__main > li:nth-child(1) > .hnf-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Products')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.ikea.com/ca/en/cat/products-products/')]", "xpath:href"],
+        ["xpath=//nav/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Products')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3065f9c5-25ea-4abc-82c8-cc6f0088aff3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=New products",
+      "targets": [
+        ["linkText=New products", "linkText"],
+        ["css=.hnf-menu__nav2__main > .hnf-menu--highlight:nth-child(1) > .hnf-link", "css:finder"],
+        ["xpath=//a[contains(text(),'New products')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://www.ikea.com/ca/en/new/')])[2]", "xpath:href"],
+        ["xpath=//nav[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'New products')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "99725a92-5935-4363-bad1-1871f05da4a6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Products",
+      "targets": [
+        ["linkText=Products", "linkText"],
+        ["css=.hnf-header__nav__main > li:nth-child(1) > .hnf-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Products')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.ikea.com/ca/en/cat/products-products/')]", "xpath:href"],
+        ["xpath=//nav/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Products')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aad5140e-8b46-4983-a548-288c95d336eb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Best sellers",
+      "targets": [
+        ["linkText=Best sellers", "linkText"],
+        ["css=.hnf-menu--highlight:nth-child(2) > .hnf-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Best sellers')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.ikea.com/ca/en/campaigns/best-sellers-pubbf5c8481')]", "xpath:href"],
+        ["xpath=//nav[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Best sellers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e80246b8-cc2b-473f-b1af-b8a7c0ca5f39",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Products",
+      "targets": [
+        ["linkText=Products", "linkText"],
+        ["css=.hnf-header__nav__main > li:nth-child(1) > .hnf-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Products')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.ikea.com/ca/en/cat/products-products/')]", "xpath:href"],
+        ["xpath=//nav/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Products')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b5b2e83-cdf7-44a3-9cec-1bb81d8c3ff5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Now or Never",
+      "targets": [
+        ["linkText=Now or Never", "linkText"],
+        ["css=.hnf-menu--highlight:nth-child(3) > .hnf-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Now or Never')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.ikea.com/ca/en/campaigns/shop-now-or-never-pub22bf9440')]", "xpath:href"],
+        ["xpath=//nav[2]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Now or Never')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2130cbf7-9626-45b0-90ad-b675c04b2b27",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Products",
+      "targets": [
+        ["linkText=Products", "linkText"],
+        ["css=.hnf-header__nav__main > li:nth-child(1) > .hnf-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Products')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.ikea.com/ca/en/cat/products-products/')]", "xpath:href"],
+        ["xpath=//nav/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Products')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7d3481a-48b7-42aa-9250-054ee4fea211",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sustainable everyday",
+      "targets": [
+        ["linkText=Sustainable everyday", "linkText"],
+        ["css=.hnf-menu--highlight:nth-child(4) > .hnf-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Sustainable everyday')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.ikea.com/ca/en/this-is-ikea/sustainable-everyday/how-to-be-more-sustainable/')]", "xpath:href"],
+        ["xpath=//nav[2]/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sustainable everyday')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5cb6fd75-2ba1-44b5-a8fc-ab69befab37e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Trending",
+      "targets": [
+        ["linkText=Trending", "linkText"],
+        ["css=.hnf-menu--highlight:nth-child(5) > .hnf-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Trending')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://www.ikea.com/ca/en/ideas/')])[3]", "xpath:href"],
+        ["xpath=//nav[2]/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Trending')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab22990e-6261-4be4-8462-7a8fc6c1d4aa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hnf-overlay",
+      "targets": [
+        ["css=.hnf-overlay", "css:finder"],
+        ["xpath=//div[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "83d01cd8-558b-456d-b506-10cafad8d234",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Rooms",
+      "targets": [
+        ["linkText=Rooms", "linkText"],
+        ["css=.hnf-header__nav__main > li:nth-child(2) > .hnf-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Rooms')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.ikea.com/ca/en/rooms/')]", "xpath:href"],
+        ["xpath=//nav/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Rooms')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8bcbc90d-cff9-42e3-84d2-bb1643c94396",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) .hnf-image",
+      "targets": [
+        ["css=li:nth-child(1) .hnf-image", "css:finder"],
+        ["xpath=//img[contains(@src,'https://www.ikea.com/images/a-blue-blakullen-bed-with-corner-headboard-in-a-bright-room--cf0c986e650cbbcfd31aa3eb1876ff75.jpg?f=xxxs')]", "xpath:img"],
+        ["xpath=//li/a/span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "46117af0-dd74-465e-9180-6b0ee13a73ae",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Best prices",
+      "targets": [
+        ["linkText=Best prices", "linkText"],
+        ["css=.hnf-header__nav__main > li:nth-child(3) > .hnf-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Best prices')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.ikea.com/ca/en/campaigns/our-best-price-pubcc18f5f9')]", "xpath:href"],
+        ["xpath=//nav/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Best prices')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "21fb77e9-a28c-471b-8537-1d3400826ea7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Offers",
+      "targets": [
+        ["linkText=Offers", "linkText"],
+        ["css=.hnf-menu__nav2:nth-child(4) > .hnf-menu__nav2__main > li:nth-child(1) > .hnf-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Offers')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://www.ikea.com/ca/en/offers/')])[2]", "xpath:href"],
+        ["xpath=//nav[4]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Offers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "62d5abd3-4281-4c81-af2b-9a168c1d15e6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Get 20% off when you buy a complete GODMORGON or HEMNES vanity with sink & faucet",
+      "targets": [
+        ["linkText=Get 20% off when you buy a complete GODMORGON or HEMNES vanity with sink & faucet", "linkText"],
+        ["css=li:nth-child(1) li:nth-child(1) > .hnf-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Get 20% off when you buy a complete GODMORGON or HEMNES vanity with sink & faucet')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.ikea.com/ca/en/campaigns/get-20-off-when-you-buy-a-complete-godmorgon-or-hemnes-vanity-with-sink-and-faucet-pube43cc470')]", "xpath:href"],
+        ["xpath=//nav[4]/ul/li/nav/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Get 20% off when you buy a complete GODMORGON or HEMNES vanity with sink & faucet')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "72441eb5-8569-4762-b55c-23cd2cafd098",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Design",
+      "targets": [
+        ["linkText=Design", "linkText"],
+        ["css=.hnf-header__nav__main > li:nth-child(4) > .hnf-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Design')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.ikea.com/ca/en/home-design/')]", "xpath:href"],
+        ["xpath=//nav/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Design')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2606c534-555e-4110-8d4c-856f460c4e4d",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "09ca24e4-92bc-4a7a-86c7-14578fc6ddc5",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["05855972-39bb-4057-8657-edad8e6624dc"]
+  }],
+  "urls": ["https://www.ikea.com/"],
+  "plugins": []
+}
